@@ -1,6 +1,7 @@
 const path = require('path')
 const VueLoaderPlugin = require("vue-loader/lib/plugin");
 
+// mode: 'production',
 // devtool: 'hidden-source-map',
 module.exports = {
   mode: 'development',
@@ -26,6 +27,7 @@ module.exports = {
   ],
   output: {
     filename: '[name].js',
-    path: path.join(__dirname, 'dist')
+    path: path.join(__dirname, 'dist'),
+    publicPath: 'dist'
   }
 }
