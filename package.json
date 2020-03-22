@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/leemutnam/dev_vuejs_2#readme",
   "dependencies": {
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5"
   },
   "devDependencies": {
     "css-loader": "^3.4.2",
@@ -30,7 +31,6 @@
     "eslint-plugin-standard": "^4.0.1",
     "vue-loader": "^15.8.3",
     "vue-loader-plugin": "^1.3.0",
-    "vue-router": "^3.1.5",
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
