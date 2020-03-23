@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from './App'
-import router from 'vue-router'
+import router from './router/index'
 
+// eslint-disable-next-line no-new
 new Vue(
   {
     el: '#app',
@@ -9,4 +10,3 @@ new Vue(
     render: h => h(App)
   }
 )
-

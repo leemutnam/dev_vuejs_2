@@ -11,10 +11,7 @@
 </template>
 
 <script>
-  import router from './router/index'
-
   export default {
-    router,
     name: 'App',
   }
 </script>
