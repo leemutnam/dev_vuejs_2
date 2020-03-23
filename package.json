@@ -18,10 +18,15 @@
   },
   "homepage": "https://github.com/leemutnam/dev_vuejs_2#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.8.7",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5"
   },
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
     "css-loader": "^3.4.2",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
